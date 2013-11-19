@@ -6,8 +6,12 @@ namespace Com.Wubinben.Kata.CSharpLearning
     public class StaticConstructorAndFieldInitializationOrderTest
     {
         [Test]
-        public void TestMethod1()
+        public void StaticFieldInitializersRunInTheOrderInWhichTheFieldsAreDeclared()
         {
+            // Given
+            // When
+            // Then
+            Assert.AreEqual(0, Foo.X, "Failure - the static field X should be 0.");
         }
     }
 }
