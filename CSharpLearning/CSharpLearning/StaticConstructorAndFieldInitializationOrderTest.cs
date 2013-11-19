@@ -11,7 +11,7 @@ namespace Com.Wubinben.Kata.CSharpLearning
             // Given
             // When
             // Then
-            Assert.AreEqual(0, Foo.X, "Failure - the static field X should be 0.");
+            Assert.AreEqual(0, StaticFieldOrder.X, "Failure - the static field X should be 0.");
         }
     }
 }

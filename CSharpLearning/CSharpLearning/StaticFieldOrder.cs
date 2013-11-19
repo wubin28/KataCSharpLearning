@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Com.Wubinben.Kata.CSharpLearning
 {
-    class Foo
+    class StaticFieldOrder
     {
         public static int X = Y;
         public static int Y = 3;
